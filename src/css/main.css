@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradiantsant {
+    background: linear-gradient(45deg, #FF7900 0%, #FC7F08 11.11%, #F98410 22.22%, #F68918 33.33%, #F48E1F 44.44%, #F39914 53.88%, #F7A318 72.11%, #FDB11E 82.38%);
+}
+
+#home-hero {
+    background-image: url('../images/Herobg.jpg');
+}
+
+#home-target-image:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 374px;
+    height: 100%;
+    background-color: #DDF0FC;
+    transform: translate(-16px,16px);
+    border-radius: 6px 6px 175px 175px;
+}
+
+#home-target-image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 374px;
+    height: 100%;
+    top: 0;
+    background-color: transparent;
+    border: 2px solid #2A447F;
+    transform: translate(-32px,32px);
+    border-radius: 6px 6px 175px 175px;
+}

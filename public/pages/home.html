@@ -1,0 +1,446 @@
+<html lang="fa" dir="rtl" class="bg-white">
+
+<head>
+    <title>سانت | خانه</title>
+    <meta charset="utf-8" />
+    <!-- <base href="file:///Users/ifarazir/Projects/Personal/sant-front/public/"> -->
+    <base href="http://127.0.0.1:5500/public/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+
+    <!-- Header:Begin -->
+    <header class="max-w-6xl mx-auto mt-[36px] md:mt-[40px] mb-[12px] flex items-center justify-between">
+        <a href="./home.html">
+            <img src="./images/logo.png" alt="logo" class="mr-[12px] md:mr-0 w-[110px]" />
+        </a>
+
+        <div class="flex md:hidden drawer drawer-end items-end justify-end">
+            <input id="navbar-drawer" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+                <!-- Page content here -->
+                <label for="navbar-drawer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-[12px]" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                </label>
+            </div>
+            <div class="drawer-side">
+                <label for="navbar-drawer" class="drawer-overlay"></label>
+                <ul class="menu p-4 w-60 h-full bg-base-200 text-base-content">
+                    <!-- Sidebar content here -->
+                    <li><a class="p-[16px]">
+                            خانه
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            محصولات
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            اهداف
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            راهکارها
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            تازه‌ها
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            نمایندگی‌ها
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            درباره ما
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            تماس با ما
+                        </a></li>
+                    <li><a class="p-[16px]">
+                            سوالات متداول
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="hidden md:flex items-center justify-end w-full mr-[22px] text-[16px] font-medium text-[#403D3D]">
+            <a class="p-[16px]">
+                خانه
+            </a>
+            <a class="p-[16px]">
+                محصولات
+            </a>
+            <a class="p-[16px]">
+                اهداف
+            </a>
+            <a class="p-[16px]">
+                راهکارها
+            </a>
+            <a class="p-[16px]">
+                تازه‌ها
+            </a>
+            <a class="p-[16px]">
+                نمایندگی‌ها
+            </a>
+            <a class="p-[16px]">
+                درباره ما
+            </a>
+            <a class="p-[16px]">
+                تماس با ما
+            </a>
+            <a class="p-[16px]">
+                سوالات متداول
+            </a>
+        </div>
+    </header>
+    <!-- Header:End -->
+
+    <!-- Hero:Begin -->
+    <section
+        class="max-w-6xl mx-auto mb-[120px] bg-cover grid grid-cols-3 items-center justify-center rounded-t-[24px] rounded-br-[24px] md:rounded-br-[200px]"
+        id="home-hero">
+        <div class="col-span-3 md:col-span-1">
+            <img src="./images/HeroPicture.png" class="w-full">
+        </div>
+        <div
+            class="col-span-3 md:col-span-2 px-[44px] h-full flex flex-col text-center items-center md:items-start justify-center">
+            <h2 class="text-white text-[40px] md:text-[64px] font-semibold">راه پاکی،</h2>
+            <h2 class="text-white text-[40px] md:text-[64px] font-semibold">فقط یک <span
+                    class="text-secondary-500">سانت</span></h2>
+
+            <div
+                class="flex flex-col md:flex-row md:items-end mb-[40px] md:mb-0 space-y-[16px] md:space-x-[10px] md:space-x-reverse ml-auto md:ml-0 mr-auto mt-[100px]">
+                <a class="px-[50px] py-[12px] bg-santGreen rounded-[16px] text-[18px] font-bold text-white">
+                    محصولات
+                </a>
+                <a class="px-[32px] py-[12px] bg-santGreen rounded-[16px] text-[18px] font-bold text-white">
+                    مشاوره و راهکارها
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Hero:End -->
+
+    <!-- Target:Begin -->
+    <section class="max-w-[1113px] mx-auto mb-[120px]">
+        <div class="grid grid-cols-12 content-between justify-between">
+            <div class="col-span-6 flex flex-col justify-center items-start">
+                <h2 class="text-primary-500 text-[32px] leading-[50px] font-bold mb-[8px]">هدف سانت</h2>
+                <p class="text-[#403D3D] text-justify text-[14px] leading-[28px] font-normal mb-[16px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+                    بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                    می طلبد تا با نرم
+                    افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی
+                    ایجاد کرد. در این صورت
+                    می ت
+                </p>
+
+                <a
+                    class="px-[20px] py-[8px] text-white text-[16px] leading-[31px] font-semibold bg-santGreen rounded-[16px] inline-flex items-center justify-center">
+                    بیشتر بدانید
+
+                    <ion-icon name="chevron-forward-outline" class="p-[8px] mr-[8px]"></ion-icon>
+                </a>
+            </div>
+            <div class="col-start-8 col-end-13">
+                <div id="home-target-image" class="h-fit relative">
+                    <img src="./images/HomeTargetImage.png" class="w-[374px] rounded-b-[175px] rounded-t-[6px] z-20">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Target:End -->
+
+    <!-- Best Product:Begin -->
+    <section class="max-w-[1347px] mx-auto mb-[138px]">
+        <p class="w-full text-center text-primary-500 font-bold text-[32px] leading-[50px] mb-[85px]">محصول برتر</p>
+        <div class="bg-gradiantsant rounded-[24px] p-[48px] flex flex-col md:grid md:grid-cols-12">
+            <div class="col-start-1 col-end-5 relative flex items-center justify-center">
+                <img src="./images/DesoJermPicture.png" class="w-[175px] md:w-full absolute md:translate-x-10" />
+            </div>
+            <div class="col-start-5 col-end-11 flex flex-col mt-[214px] md:mt-0">
+                <h3 class="text-[#1D1C1C] text-[28px] text-center md:text-start leading-[43px] font-bold mb-[26px]">
+                    دزوجرم 2 آ</h3>
+
+                <p class="text-[22px] leading-[34px] font-bold text-[#1D1C1C] mb-[6px]">مشخصات:</p>
+                <p class="text-justify text-[16px] leading-[29px] font-normal mb-[50px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                    هدف
+                    بهبود ابزاره
+                </p>
+
+                <a
+                    class="w-fit ml-auto md:ml-0 mr-auto px-[20px] py-[8px] text-white text-[16px] leading-[31px] font-semibold bg-santGreen rounded-[16px] inline-flex items-center justify-center">
+                    بیشتر بدانید
+
+                    <ion-icon name="chevron-forward-outline" class="p-[8px] mr-[8px]"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Best Product:End -->
+
+    <!-- Product Category:Begin -->
+    <section class="max-w-[1102px] mx-auto py-[60px]">
+        <p class="w-full text-center text-primary-500 font-bold text-[32px] leading-[50px] mb-[80px]">محصولات</p>
+
+        <div class="flex flex-col mx-[62px] md:mx-0 space-y-[18px] md:grid md:grid-cols-12 gap-x-[24px]">
+            <a class="col-start-2 col-end-7 bg-primary-500 rounded-[24px]">
+                <div class="w-full grid grid-cols-5 items-center justify-center">
+                    <div class="col-span-2">
+                        <img src="./images/food-products.jpg" class="w-full rounded-r-[24px]">
+                    </div>
+                    <div class="col-span-3 flex text-center">
+                        <p class="text-[20px] md:text-[28px] font-bold text-white mx-auto">صنایع غذایی</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="col-start-7 col-end-12 bg-primary-500 rounded-[24px]">
+                <div class="w-full grid grid-cols-5 items-center justify-center">
+                    <div class="col-span-2">
+                        <img src="./images/pet-products.png" class="w-full rounded-r-[24px]">
+                    </div>
+                    <div class="col-span-3 flex text-center">
+                        <p class="text-[20px] md:text-[28px] font-bold text-white mx-auto">دامپزشکی</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- Product Category:End -->
+
+    <!-- Consultation CTA:Begin -->
+    <section class="max-w-[1102px] mx-auto py-[60px]">
+        <p class="w-full text-center text-primary-500 font-bold text-[32px] leading-[50px] mb-[80px]">مشاوره و راهکارها
+        </p>
+        <div class="bg-gradiantsant rounded-[24px] px-[69px] md:px-0 py-[95px]">
+            <div class="max-w-[742px] mx-auto">
+                <p class="text-[16px] leading-[32px] font-normal text-justify text-[#403D3D] mb-[12px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+                    بهبود ابزارهای
+                    کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را
+                    می طلبد تا با نرم
+                    افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی
+                    ایجاد کرد. در این صورت
+                    می ت
+                </p>
+
+                <div
+                    class="flex flex-col md:flex-row items-center justify-center space-y-[24px] md:space-y-0 md:space-x-[10px] space-x-reverse mx-auto">
+                    <a class="px-[50px] py-[12px] bg-santGreen rounded-[16px] text-[18] font-bold text-white">
+                        صنایع غذایی
+                    </a>
+                    <a class="px-[32px] py-[12px] bg-santGreen rounded-[16px] text-[18] font-bold text-white">
+                        مشاوره و راهکارها
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Consultation CTA:End -->
+
+    <!-- New Products:Begin -->
+    <section class="max-w-[1102px] mx-auto py-[60px] text-center">
+        <p class="w-full text-center text-primary-500 font-bold text-[32px] leading-[50px] mb-[80px]">تازه‌ها</p>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 px-[10px] md:px-0 gap-[24px] mb-[63px]">
+            <a class="col-span-1 bg-primary-500 rounded-[30px]">
+                <div class="w-full flex flex-col items-center">
+                    <img src="./images/new-product-1.png" class="w-full rounded-t-[24px] mb-[24px]">
+
+                    <p class="text-[16px] font-medium text-white mx-auto mb-[50px]">آشنایی با مه پاشی و واژگان مرتبط با
+                        آن</p>
+                </div>
+            </a>
+
+            <a class="col-span-1 bg-primary-500 rounded-[30px]">
+                <div class="w-full flex flex-col items-center">
+                    <img src="./images/new-product-2.png" class="w-full rounded-t-[24px] mb-[24px]">
+
+                    <p class="text-[16px] font-medium text-white mx-auto mb-[50px]">کیفیت آب آشامیدنی طیور</p>
+                </div>
+            </a>
+
+            <a class="col-span-1 bg-primary-500 rounded-[30px]">
+                <div class="w-full flex flex-col items-center">
+                    <img src="./images/new-product-3.png" class="w-full rounded-t-[24px] mb-[24px]">
+
+                    <p class="text-[16px] font-medium text-white mx-auto mb-[50px]">نمایشگاه دام و طیور مشهد</p>
+                </div>
+            </a>
+
+            <a class="col-span-1 bg-primary-500 rounded-[30px]">
+                <div class="w-full flex flex-col items-center">
+                    <img src="./images/new-product-4.png" class="w-full rounded-t-[24px] mb-[24px]">
+
+                    <p class="text-[16px] font-medium text-white mx-auto mb-[50px]">تاریخچه استفاده از مایع شوینده سبک
+                    </p>
+                </div>
+            </a>
+
+        </div>
+
+        <a
+            class="mx-auto px-[20px] py-[8px] text-white text-[16px] leading-[31px] font-semibold bg-santGreen rounded-[16px] inline-flex items-center justify-center">
+            بیشتر بخوانید
+
+            <ion-icon name="chevron-forward-outline" class="p-[8px] mr-[8px]"></ion-icon>
+        </a>
+    </section>
+    <!-- New Products:End -->
+
+    <!-- CountDown CTA:Begin -->
+    <section class="max-w-[1102px] mx-auto py-[60px]">
+        <p class="w-full text-center text-primary-500 font-bold text-[32px] leading-[50px] mb-[80px]">شمارشگر</p>
+        <div class="bg-gradiantsant rounded-[24px] py-[95px]">
+            <div class="max-w-[941px] mx-auto flex flex-col md:grid md:grid-cols-12 mb-[62px]">
+                <div class="col-span-6 md:col-span-8 flex flex-col items-center justify-center">
+                    <p class="max-w-[270px] md:max-w-[450px] mx-auto text-[16px] leading-[30px] text-center mb-[39px]">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنا
+                    </p>
+                </div>
+                <div class="mx-auto w-2/3 md:w-full md:col-span-4 grid grid-cols-2 gap-[50px]">
+                    <div class="aspect-square bg-white rounded-[24px] flex items-center justify-center">
+                        <p class="text-primary-500 text-[40px] font-bold">110</p>
+                    </div>
+                    <div class="aspect-square bg-white rounded-[24px] flex items-center justify-center">
+                        <p class="text-primary-500 text-[40px] font-bold">110</p>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[941px] mx-auto flex flex-col md:grid md:grid-cols-12">
+                <div class="col-span-6 md:col-span-8 flex flex-col items-center justify-center">
+                    <p class="max-w-[270px] md:max-w-[450px] mx-auto text-[16px] leading-[30px] text-center mb-[39px]">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنا
+                    </p>
+                </div>
+                <div class="mx-auto w-2/3 md:w-full md:col-span-4 grid grid-cols-2 gap-[50px]">
+                    <div class="aspect-square bg-white rounded-[24px] flex items-center justify-center">
+                        <p class="text-primary-500 text-[40px] font-bold">110</p>
+                    </div>
+                    <div class="aspect-square bg-white rounded-[24px] flex items-center justify-center">
+                        <p class="text-primary-500 text-[40px] font-bold">110</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CountDown CTA:End -->
+
+    <!-- Footer:Begin -->
+    <footer class="bg-primary-500">
+        <div
+            class="mx-auto max-w-[1102px] px-[50px] md:px-0 py-[50px] md:py-[150px] grid grid-cols-1 md:grid-cols-3 gap-x-[20px] gap-y-[48px] text-white">
+            <div>
+                <h3 class="text-[22px] font-bold pb-[8px] border-b-[2px] border-b-white mb-[21px]">درباره سانت</h3>
+
+                <p class="text-[14px] leading-[29px] font-normal text-justify">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردها
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-[22px] font-bold pb-[8px] border-b-[2px] border-b-white mb-[21px]">لینک‌های کاربردی</h3>
+
+                <ul class="space-y-[16px] text-[16px] font-medium">
+                    <li>مشاوره و راهکارهای صنایع غذایی</li>
+                    <li>مشاوره و راهکارهای دامپزشکی</li>
+                    <li>محصولات صنایع غذایی</li>
+                    <li>محصولات دامپزشکی</li>
+                    <li>اهداف</li>
+                    <li>تازه‌ها</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-[22px] font-bold pb-[8px] border-b-[2px] border-b-white mb-[21px]">لینک‌های ارتباطی</h3>
+
+                <div class="space-y-[21px]">
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            آدرس دفتر مرکزی:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                            75 کیلومتری اتوبان ساوه تهران
+                            ناحیه صنعتی پرندک
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            آدرس کارخانه:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                            75 کیلومتری اتوبان ساوه تهران
+                            ناحیه صنعتی پرندک
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            ایمیل:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                            info@sant.ir
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            شماره تماس دفتر مرکزی:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            شماره تماس کارخانه:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                            ۰۲۱۸۸۹۱۸۶۷۸-۰۲
+                        </p>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <p class="w-1/2 text-white text-[16px] font-medium">
+                            فکس:
+                        </p>
+                        <p class="w-1/2 text-white text-[12px] font-normal leading-[22px]">
+                            ۰۲۱۸۸۹۱۸۶۷۸-۰۲
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer:End -->
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
